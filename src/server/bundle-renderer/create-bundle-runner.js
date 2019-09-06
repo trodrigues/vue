@@ -7,6 +7,7 @@ const NativeModule = require('module')
 
 function createSandbox (context) {
   const sandbox = {
+    URL,
     Buffer,
     console,
     process,
